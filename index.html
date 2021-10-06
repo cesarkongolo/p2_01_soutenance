@@ -4,82 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link  href = " https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet">
-    <link  href = " https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all" rel="stylesheet">
+    <link  href = " https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all"  rel="stylesheet">
     <link rel = "preconnect" href = "https://fonts.gstatic.com">
-    <link href = "https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" 
-    rel = "feuille de style">
+    <link href = "https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
     <link  href = " https://kit-free.fontawesome.com/releases/latest/css/free.min.css " media="all" rel="stylesheet">
     <title>Reservia</title>
 </head>
 
 <body> 
     <div id="main">
-        <!--Debut du block En-tête-->
-        <header class="flex">
-
-            <div class="flex-container">
-                <nav>
-                    <ul>
+    <header  class= "flex">
+           
+        <div class="flex-container">
+				<nav>
+					<ul>
                         <li id="logo"><img src="images/logo/Reservia.svg" alt="logo" class="logo"></li>
-                        <li class="menu"><a class="ontainerHotels" href="#ontainerHotels">Hébergements</a></li>
-                        <li class="menu"><a href="#activitiesAnchor">Activités</a></li>
-                        <li class="menu"><a href="" class="sinscrire">S'inscrire</a></li>
-                    </ul>
-                </nav>
-
+						<li class="menu"><a href="#containerHotels">Hébergements</a></li>
+                    	<li class="menu"><a href="#activitiesAnchor">Activités</a></li>
+                        <li class="menu"><a href="#" class="sinscrire">S'inscrire</a></li>
+                	</ul>
+            	</nav>
+            
             </div>
-        </header>
-         <!--Fin du block En-tête-->
+    </header>
 
-       
-        <!--Debut du block Recherche-->
+        <!--Recherche-->
         <div class="Trouvez">
             <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
             <p>En plein centre ville ou en pleine nature</p>
+           
             <form class="searchBar flex" action="#" method="GET">
-                <div class="containerMarker flex">
+               <div class="containerMarker flex">
                     <i class="fas fa-map-marker-alt"></i>
                 </div>
+
                 <input type="search" class="searchInput" placeholder="Marseille, France">
                 <button class="searchButton">
                     <span>Rechercher</span>
-                </button>
-                <button class="research">
-                    <i class="fas fa-search"></i>
+                    <button class="research">
+                        <i class="fas fa-search"></i>
+                    </button>
                 </button>
             </form>
         </div>
-        <!--Fin du block Recherche-->
 
-       
         <!--Debut du block filtres-->
-        <div class="container-filtres">
+         <div class="container-filtres">
             <h3 class="contourfiltres">Filtres</h3>
             <div class="filtres">
+
                 <div class="contourfiltre">
                     <div class="icone">
                         <i class="fas fa-money-bill-wave"></i>
                     </div>
                     <h3 class="textefiltre">Economique</h3>
                 </div>
+
                 <div class="contourfiltre">
                     <div class="icone">
                         <i class="fas fa-child"></i>
                     </div>
+
                     <h3 class="textefiltre">Familial</h3>
                 </div>
+
                 <div class="contourfiltre">
                     <div class="icone">
                         <i class="fas fa-heart"></i>
                     </div>
+
                     <h3 class="textefiltre">Romantique</h3>
                 </div>
                 <div class="contourfiltre">
                     <div class="icone">
                         <i class="fas fa-dog"></i>
                     </div>
+
                     <h3 class="textefiltre">Animaux autorisés</h3>
                 </div>
             </div>
@@ -90,19 +92,19 @@
                 <i class="fas fa-info"></i>
             </div>
             <p class="texteinfo">
-                Plus de 500 logements sont disponibles dans cette ville
+                &nbsp; Plus de 500 logements sont disponibles dans cette ville
             </p>
         </div>
         <br>
          <!--Fin du block filtres-->
 
 
-         <!--Debut du block hébergements-->
-         <div class="containerHotels flex">
+        <!--Debut du block hébergements-->
+        <div class="containerHotels flex">
             <section class="hebergements">
-                <h2>Hébergements à Marseille</h2>
+                <h2 id="hotelsAnchor">Hébergements à Marseille</h2>
                 
-                <div class="block-hotels">
+                <div class="hotelsTab">
                     <a href="#">
                         <article class="container-items">
                             <img src="./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg "
@@ -176,7 +178,7 @@
                         </article>
                     </A>
 
-                    <A href="#">
+                    <a href="#">
                         <article class="container-items">
                             <img src="./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
                                  alt=" Photo d'une chambre d'auberge avec deux lits superposés ">
@@ -214,8 +216,7 @@
                 </div>
                 <h2 class="ShowMore">Afficher plus de</h2>
             </section>
-            <!--Fin du block hébergements-->
-
+             <!--Fin du block hébergements-->
 
             <!--Debut du block Populaire-->
             <section class="popular">
@@ -284,13 +285,11 @@
                             </div>
                         </article>
                     </a>
-
                 </div>
                 <br>
             </section>
         </div>
         <!--Fin du block Populaire-->
-        
 
         <!--Debut du block activités-->
         <section class="activites-container">
@@ -357,7 +356,9 @@
                     </a>
                 </div> 
             </div>
+
         </section>
+    </div>
     <!--Fin du block activités-->
 
     <!--Debut du block Pied de page-->
@@ -370,7 +371,6 @@
                 <li><a  href="#"> Données et confidentialités</a></li>
             </ul>
         </div>
-
         <div  class="ourHotels">
             <h3>Nos hébergements</h3>
             <ul>
@@ -378,7 +378,6 @@
                 <li><a  href="#">Soumettre hôtel Votre</a></li>
             </ul>
         </div>
-
         <div  class="assistance">
             <h3> Assistance</h3>
             <ul>
@@ -386,9 +385,8 @@
                 <li><a  href="#"> Nous contacter</a></li>
             </ul>
         </div>
-
     </footer>
+    
     <!--Fin du block Pied de page-->
-    </div>
-    </body>
+</body>
 </html>
