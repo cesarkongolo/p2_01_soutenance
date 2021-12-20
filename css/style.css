@@ -196,6 +196,7 @@ nav a{
 }
 
 .info{
+
     display: flex;
     align-items: center;
 }
