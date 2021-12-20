@@ -72,10 +72,143 @@ nav a{
     flex-wrap: nowrap;
     justify-content: flex-end;
     margin: 0;
+    border: solid yellow;
+}
+
+/*recherher*/
+
+
+.searchBar
+{
+    margin-bottom: 30px;
+    height: 50px;
+    display: flex;
+
+}
+
+.search{
+    margin-bottom: 30px;
+}
+
+.search h1{
+    margin-bottom: 30px;
+}
+
+.search p{
+    margin-top: 30px;
+}
+
+.searchInput{
+    padding: 15px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 230px;
+    border: solid 1px #f2f2f2;
+}
+
+.searchFormSubmitInput_2{
+    width: 30px;
+    background-color: #0065FC;
+    border: none;
+    padding: 0;
+    border-radius: 0 15px 15px 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    flex-shrink: 0;
+    display: none;
+}
+
+.searchButton{
+    width: 130px;
+    background-color: #0065FC;
+    border: none;
+    padding: 15px;
+    border-radius: 0 15px 15px 0;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.fa-map-marker-alt:before
+{
+    content: "\f3c5";
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: #f2f2f2;
+    border-radius: 15px 0 0 15px;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.filtre{
+    display: flex;
+    align-items: center;
+    margin-right: 4rem;
+    border: 4px solid #d9d9d9;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 
-/*recherher*/
+.contourFiltres{
+     display: flex;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.contourFiltres :hover{
+      background-color:blue;
+    align-items: center;
+    background-color: #f3f8ff;
+    transform: scale(1.050);
+}
+
+.filtresTitre{
+    margin: 0 2rem 1rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.filtreTitre{
+    padding-left: 6px;
+    padding-right:10px;
+}
+
+.icone{
+    background-color: #DEEBFF;
+    border-radius: 100%;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    font-size: 1.3rem;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
