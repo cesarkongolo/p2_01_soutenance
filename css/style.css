@@ -1,3 +1,117 @@
+/* Font perso */
+@import  url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap' );
+/* General */
+
+body {
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+main{
+    margin: 1%;
+    border: solid;
+}
+
+ul{
+    list-style-type: none;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.searchHeaderTitre{
+     font-size: 1.6em;
+}
+
+#logo{
+    margin-left: -44px;
+    width:99%;
+    border: solid;
+}
+
+nav{
+    width: 100%;
+    margin-left: auto;
+    border: solid;
+}
+
+nav li{
+    padding-top: 17px;
+}
+
+nav a{
+    padding: 40px 30px 0;
+}
+
+.menu a:hover{
+    color:#0065FC;
+    border-top: 2px solid #0065FC;
+    font-size: initial;
+    padding-top: 30px;
+}
+
+.menu{
+    padding: 33px;
+}
+
+.sinscrire
+{
+    font-size: 15px;
+    color:#0065FC;
+    font-weight: bolder;
+}
+
+.flex-container nav ul{
+     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+
+/*recherher*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
