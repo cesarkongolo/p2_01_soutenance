@@ -397,6 +397,23 @@ nav a{
     border: solid;
 }
 
+.blocActivite{
+width: 100%;
+}
+
+.activiteTitre{
+    width: 100%;
+}
+
+.activiteFi{
+    flex: 1 20%;
+    border: solid;
+}
+
+.activitePhoto1{
+     margin-bottom: 2.5rem;
+    border: solid;
+}
 
 
 
