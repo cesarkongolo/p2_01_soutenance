@@ -10,8 +10,7 @@ body {
 }
 
 main{
-    margin: 1%;
-    border: 2px solid;
+    margin-left: 2%;
 }
 
 ul{
@@ -189,9 +188,9 @@ nav a{
 }
 
 .info{
-
     display: flex;
     align-items: center;
+    padding-top: 2%;
 }
 
 .iconeinfo{
@@ -216,7 +215,6 @@ nav a{
 .activiteBloc1{
     display: flex;
     flex-direction: row;
-    border: solid;
 }
 
 .fa-star
@@ -237,15 +235,19 @@ nav a{
 
 /*hebergement*/
 
+.containerHotels{
+     margin: 0;
+     padding: 0;
+}
+
 #BlocHebergements{
     background-color: #f2f2f2;
     border-radius: 20px;
     display: flex;
     flex-wrap:wrap;
-    padding: 1%;
-    flex: 1 0 68%;
+    flex: 1 50% 65%;
     margin: 3% 3% 3% auto;
-    border: solid 4px red;
+    padding: 26px ;
 }
 
 .TitreHebergement{
@@ -306,7 +308,7 @@ nav a{
 
 .hotelEtoile1{
     word-spacing: -1ch;
-    padding-top: 3px;
+    padding-top: 25%;
 }
 
 .containerHotels
@@ -328,16 +330,15 @@ nav a{
     flex-wrap: wrap;
     background-color: #f2f2f2;
     border-radius: 20px;
-    flex: 1 0 25%;
+    flex: 1 0 26%;
     justify-content: space-between;
     align-items: center;
-    padding: 1% 1% 1% 0;
-    border: solid yellow;
+    margin-right: 2%;
 }
 
 .populaireIcon{
     font-size: 1.5rem;
-    padding: 2%;
+    padding-right: 10%;
 }
 
 .populaireTexte{
@@ -367,14 +368,13 @@ nav a{
     box-sizing: border-box;
     overflow: hidden;
     display: flex;
-    width: 88%;
+    width: 6 ;
 }
 
 
 .populaireFrame img{
     width: 40%;
     object-fit: cover;
-    border: solid;
 }
 
 .hotelNom{
@@ -393,6 +393,9 @@ nav a{
     font-size: 1.2rem;
     padding-left: 20px;
 }
+
+
+/*Activité*/
 
 .blocActivite{
     display: flex;
@@ -416,7 +419,6 @@ width: 100%;
 
 .activitePhoto1{
      margin-bottom: 2.5rem;
-    border: solid;
 }
 
 
