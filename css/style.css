@@ -10,7 +10,7 @@ body {
 }
 
 main{
-    margin-left: 2%;
+    margin-left:2%;
 }
 
 ul{
@@ -29,7 +29,11 @@ a{
 
 #logo{
     margin-left: -73px;
-    width:99%;
+    width:100%;
+}
+
+.logo{
+    width: 9%;
 }
 
 nav{
@@ -54,6 +58,7 @@ nav a{
 
 .menu{
     padding: 33px;
+    margin-left: -3%;
 }
 
 .sinscrire
@@ -212,10 +217,6 @@ nav a{
     margin: 0;
 }
 
-.activiteBloc1{
-    display: flex;
-    flex-direction: row;
-}
 
 .fa-star
 {
@@ -273,7 +274,8 @@ nav a{
 }
 .container-items:hover,
 .figurePhotoPopulaire:hover,
-.activitePhotoFigure:hover{
+.activitePhotoFigure:hover,
+.figurePhotoPopulaire1:hover{
     transform: scale(1.0200);
     background-color: #f3f8ff;
 }
@@ -308,7 +310,7 @@ nav a{
 
 .hotelEtoile1{
     word-spacing: -1ch;
-    padding-top: 25%;
+    padding-top: 20%;
 }
 
 .containerHotels
@@ -330,7 +332,7 @@ nav a{
     flex-wrap: wrap;
     background-color: #f2f2f2;
     border-radius: 20px;
-    flex: 1 0 26%;
+    flex: 1 0 29%;
     justify-content: space-between;
     align-items: center;
     margin-right: 2%;
@@ -343,12 +345,13 @@ nav a{
 
 .populaireTexte{
     margin-left: 8%;
+    margin-bottom: 9%;
 }
 
 .populaireDescription{
     background-color: #fff;
     justify-content: space-between;
-    padding: 10px;
+    padding: 4%;
     flex-grow: 1;
     flex-basis: 16%;
 
@@ -368,7 +371,18 @@ nav a{
     box-sizing: border-box;
     overflow: hidden;
     display: flex;
-    width: 6 ;
+}
+
+.figurePhotoPopulaire1{
+    display: flex;
+    height: 150px;
+    width: 98%;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 7px #c1c1c1;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 
@@ -399,29 +413,90 @@ nav a{
 
 .blocActivite{
     display: flex;
+    width: 98%;
     margin: 4rem 0;
     flex-wrap: wrap;
-    border: solid;
+    justify-content: center;
+    border: solid 3px;
 }
 
-.blocActivite{
-width: 100%;
-}
-
-.activiteTitre{
+.activiteHeader{
     width: 100%;
+    border: solid;
 }
 
 .activiteFi{
-    flex: 1 20%;
-    border: solid;
-}
-
-.activitePhoto1{
-     margin-bottom: 2.5rem;
+   flex: 1 20%; 
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+footer {
+    background-color: #f2f2f2;
+}
+
+footer{
+    height: auto;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer .h3 {
+    font-size: initial;
+}
+
+footer ul {
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+
+footer div {
+    margin-left: -285px;
+}
+
+footer a:hover {
+    font-weight: 600;
+    color: #0065FC;
+}
 
 
 
