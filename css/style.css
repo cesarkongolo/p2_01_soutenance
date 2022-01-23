@@ -377,7 +377,7 @@ nav a{
 .figurePhotoPopulaire1{
     display: flex;
     height: 150px;
-    width: 98%;
+    width: 97%;
     border: 5px solid #fff;
     border-radius: 15px;
     margin-bottom: 30px;
@@ -568,19 +568,146 @@ footer a:hover {
 }
 
 
+@media only screen and (max-width: 640px) {
+/* cette Partie est reserver au Header */
 
+    main {
+        align-items: center;
+        border: solid;
+    }
 
+    #logo {
+        width: 65%;
+        height: 30%;
+        margin-left: -28px;
+    }
 
+    .logo {
+        margin-top: -12px;
+        border: solid;
+    }
 
+    .sinscrire {
+        font-weight: bolder;
+        font-size: 15px;
+        color: #0065FC;
+        margin-right: 0;
+        padding-right: 0;
+        max-width: 0;
+    }
 
+    /* Fin de la partie Header */
 
+    /* debut de la partie Imput */
+    .searchButton {
+        display: none;
+        width: 0;
+    }
 
+    .searchFormSubmitInput_2 {
+        width: 50px;
+        border-radius: 17px 17px 17px 17px;
+        display: initial;
+    }
 
+    .recherche {
+        margin: 0 4% 0 4%;
+    }
 
+    .filtres{
+        margin: 0 4% 0 4%;
+    }
 
+    .searchBar {
+        flex-direction: initial;
+    }
 
+    .searchInput::placeholder {
+        color: #c2c2c2;
+    }
+    /* Fin de la partie imput */
 
+    /* debut de la section filtres */
+    .filtresTitre{
+        width: 100%;
+        padding-left: 5px;
+        padding-left: 5px;
+        font-size: 15px;
+    }
+    /* fin de la section filtres */
 
+    /* debut de la section populaire */
+    .figurePhotoPopulaire{
+        margin-left: 30px;
+        width: 87%;
+    }
+
+    .figurePhotoPopulaire1 {
+        display: flex;
+        height: 150px;
+        width: 88%;
+        border: 5px solid #fff;
+        border-radius: 15px;
+        margin-bottom: 30px;
+        box-shadow: 0 0 7px #c1c1c1;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+   
+    #populaire {
+        border-radius: 0;
+        margin: 0;
+    }
+    .info {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .popularFrame img {
+        object-fit: cover;
+    }
+
+    .popularDescription {
+        padding: 7px;
+        padding-left: 16px;
+    }
+    .popularDescription p {
+        font-size: 15px;
+        margin-left: 2px;
+    }
+/* Fin de la section populaire */
+
+/* debut de la section Hébergement*/
+.containerHotels {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    width: auto;
+}
+
+#BlocHebergements,
+    .popularaire {
+        background-color: #f2f2f2;
+        border-radius: 20px;
+    }
+
+    #BlocHebergements{
+        background-color: white;
+        display: block;
+        margin: 0 4% 0 4%;
+    }
+
+    .container-items {
+        margin: 25px -13px 15px -13px;
+    }
+    .TitreHebergement {
+        padding-left: 0;
+    }
+    /* debut de la section Hébergement*/
+
+    /* debut de la section Avtivité*/
+    
+ }
 
 
 
