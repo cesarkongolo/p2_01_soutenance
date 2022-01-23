@@ -274,7 +274,7 @@ nav a{
 }
 .container-items:hover,
 .figurePhotoPopulaire:hover,
-.activityFigure:hover,
+.BlocActiviteFigure:hover,
 .figurePhotoPopulaire1:hover{
     transform: scale(1.0200);
     background-color: #f3f8ff;
