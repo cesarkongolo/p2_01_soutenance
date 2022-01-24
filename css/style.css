@@ -703,9 +703,43 @@ footer a:hover {
     .TitreHebergement {
         padding-left: 0;
     }
-    /* debut de la section Hébergement*/
+
+    .containerHotels {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        width: auto;
+        border: solid;
+    }
+
+    #BlocHebergements,
+    .populaire {
+        background-color: #f2f2f2;
+        border-radius: 20px;
+    }
+    #BlocHebergements {
+        background-color: white;
+        display: block;
+        margin: 0 4% 0 4%;
+    }
+
+    .ShowMore {
+        padding-left: 0;
+    }
+
+    
+    /* Fin de la section Hébergement*/
 
     /* debut de la section Avtivité*/
+    .bloc2 {
+        margin: 0 4% 0 5%;
+    }
+
+    .BlocActiviteTitre {
+        padding-left: 12px;
+        border: solid;
+    }
+
     
  }
 
