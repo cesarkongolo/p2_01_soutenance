@@ -727,6 +727,15 @@ footer a:hover {
         padding-left: 0;
     }
 
+    .hotelNom{
+        font-size: 18px;
+        margin-left: 2px;
+    }
+
+    .hotelEtoile{
+        padding-top: 1px;
+    }
+
     
     /* Fin de la section Hébergement*/
 
@@ -739,6 +748,14 @@ footer a:hover {
         padding-left: 12px;
         border: solid;
     }
+
+    .ShowMore {
+        padding-left: 0;
+    }
+
+    
+
+    
 
     
  }
