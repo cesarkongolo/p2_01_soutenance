@@ -9,6 +9,8 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+
+
 main{
     margin-left:2%;
 }
@@ -629,7 +631,7 @@ footer a:hover {
         width: auto;
         margin-left: auto;
     }
-    .flex-container {
+    .flex-container { max-width: 1440px;
         width: auto;
         margin: 3%;
     }
@@ -804,10 +806,19 @@ footer a:hover {
         margin: 10px;
     }
 
-    .BlocActivitePhoto1,
-    .BlocActivitePhoto3,
-    .BlocActivitePhoto4 {
+
+    .BlocActivitePhoto3 {
         margin-bottom: 30px;
+    }
+
+    .BlocActivitePhoto1{
+        width: auto;
+        border: solid;
+    }
+
+    .BlocActivitePhoto4{
+        width: auto;
+        border: solid;
     }
 
     .BlocActiviteImg1,
