@@ -9,8 +9,6 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-
-
 main{
     margin-left:2%;
 }
@@ -531,7 +529,7 @@ footer {
     background-color: #f2f2f2;
 }
 
-footer{
+footer .container {
     height: auto;
     padding-bottom: 20px;
     padding-top: 30px;
@@ -549,7 +547,6 @@ footer ul {
     margin-left: -40px;
 }
 
-
 footer ul li {
     margin-bottom: 10px;
 }
@@ -559,9 +556,8 @@ footer a {
     color: black;
 }
 
-
 footer div {
-    margin-left: -285px;
+    margin-left: -105px;
 }
 
 footer a:hover {
@@ -631,7 +627,7 @@ footer a:hover {
         width: auto;
         margin-left: auto;
     }
-    .flex-container { max-width: 1440px;
+    .flex-container {
         width: auto;
         margin: 3%;
     }
@@ -806,19 +802,10 @@ footer a:hover {
         margin: 10px;
     }
 
-
-    .BlocActivitePhoto3 {
+    .z,
+    .BlocActivitePhoto3,
+    .BlocActivitePhoto4 {
         margin-bottom: 30px;
-    }
-
-    .BlocActivitePhoto1{
-        width: auto;
-        border: solid;
-    }
-
-    .BlocActivitePhoto4{
-        width: auto;
-        border: solid;
     }
 
     .BlocActiviteImg1,
