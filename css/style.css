@@ -876,99 +876,126 @@ footer a:hover {
 /* Tablet version */
 
 @media only screen and (min-width: 650px) and (max-width: 1340px) {
-    .body {
-        font-size: 00.9rem;
-    }
-    #logo {
-        margin-left: -63px;
-    }
-    .filtresTitre{
-        width: 100%;
-    }
-    #populaire {
-        background-color: white;
-    }
-    .populaire{
-        width: auto;
-        margin: 2%;
-        display: flex;
-    }
-    #BlocHebergements {
-        margin: 2%;
-        width: 90%;
-    }
-    .container-items {
-        flex: 1 0 45%;
-    }
-    .container-items img {
-        width: 112%;
-    }
-    .hotelDescription {
-        margin-right: -40px;
-    }
-    .containerHotels {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .populaireTexte {
-        margin-left: 13%;
-    }
-    .populaireIcon {
-        margin-right: 55px;
-    }
-    .filtre {
-        margin-right: 1rem;
-    }
-    .populaireTab {
-        width: 100%;
-        align-content: space-between;
-        flex-wrap: nowrap;
-        flex: 1 1 auto;
-        margin: 0;
-        padding: 0;
-        margin-left: 55px;
-    }
-    .BlocActivite{
-        margin: 4rem;
-    }
-    .BlocActiviteImg1 {
-        height: 21.2rem;
-        object-position: 0px 0;
-    }
-    .BlocActiviteImg4 {
-        height: 22.7rem;
-        object-position: 0px 0;
-    }
-    .BlocActiviteImg2 {
-        height: 7rem;
-        object-position: 50% 50%;
-    }
-    .BlocActiviteImg3 {
-        height: 7rem;
-        object-position: 50% 50%;
-    }
-    .BlocActiviteImg5 {
-        height: 8rem;
-        object-position: 50% 80%;
-    }
-    .BlocActiviteImg6 {
-        height: 8.1rem;
-        object-position: 50% 40%;
-    }
-    .Activite-Commun {
-        flex: 1 43%;
-        object-position: 55px;
-    }
-    .BlocActivitePhoto3,
-    .BlocActivitePhoto6 {
-        margin-top: 0;
-    }
-    .ActiviteBloc1 {
-        margin-right: 0;
-    }
-    footer div {
-        margin-left: 0px;
-    }
+    
+        /* Search - Tablet */
+        .filtre{
+            display: flex;
+            width: auto;
+            flex-direction: row;
+        }
+    
+        .contourFiltres {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            height: 3.4rem;
+            width: auto;
+            border-radius: 2rem;
+            margin:2%;
+            
+    
+        }
+    
+        .filtreTitre{
+            align-self: auto;
+            margin-bottom: 15px;
+            margin-right: 4px;
+            margin-left: 10px;
+    
+        }
+    
+        .filtres{
+            margin: 0 1rem 1rem 0;
+        }
+    
+        /* Popular - Tablet */
+        
+        .populaire{
+            width: auto;
+            margin:2%;
+            border: solid;
+        }
+    
+        .BlocHebergements{
+            margin:2%;
+            width: 91%;
+        }
+        
+        .populaireFrame { 
+            height: 170px;
+            width: 90.5% ;
+            min-width: 90%;
+            margin: 2%;
+        }
+    
+        /* Hotels - Tablet */
+        
+        .containerHotels {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        
+        .populaire{
+            width: 100%;
+            display: inline-flex;
+            align-content: space-between;
+            flex-wrap: nowrap;
+            flex: 1 1 auto;
+            border: solid red;
+            margin: 0;
+            padding: 0;
+    
+        }
+    
+        /* Activities - Tablet */
+        .BlocActivite {
+            margin: 0rem;
+        }
+
+        .BlocActiviteImg1{
+            height: 21.2rem;
+            object-position: 0px 0;
+        }
+
+        .BlocActiviteImg4{
+            height: 22.7rem;
+            object-position: 0px 0;
+        }
+
+        .BlocActiviteImg2{
+            height: 7rem;
+            object-position: 50% 50%;
+        }
+
+        .BlocActiviteImg3{
+            height: 8rem;
+            object-position: 50% 80%;
+        }
+
+        .BlocActiviteImg5{
+            height: 8rem;
+            object-position: 50% 80%;
+        }
+
+        .BlocActiviteImg6{
+            height: 8.1rem;
+            object-position: 50% 40%;
+        }
+
+        .Activite-Commun {
+            flex: 1 43%;
+            object-position: 55px;
+        }
+        
+    
+        /* Footer - Tablet */
+    
+        footer div{
+            padding: 10px;
+        }
+    
+   
+    
 }
 
 
